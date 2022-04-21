@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+        <br><br><title>About Me</title>
+</head>
+
+<!-- <section class="wrapper">
+    <div class="container">
+        <div class="content">
+            <h2 class="heading">About Me</h2>
+            <p>初めまして、大学４回生。<br>このページでは私について</p>
+        </div>
+    </div>
+</section> -->
+
+<body>
+
+    <div class="menu", style="text-align: center">
+        <p>&nbsp;&nbsp;<a class="noline" href="profiling.html">Home</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="AboutMe.html">About Me</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="PersonalBlog.html">Personal Blog</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="photogallery.html">Photo Gallery</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="Comments.html">Comments</a>
+            &nbsp;&nbsp;</p>
+    </div>
+</body>
+
+<section class="wrapper">
+    <div class="container">
+        <div class="content">
+            <h2 class="heading">ABOUT  ME</h2>
+            <h4 class="sub">初めまして、ここでは私の趣味について語っていきます！</h4>
+            <div class="list">
+                <div class="list-item">
+                    <img src="お絵描き２.JPG" class="image">
+                    <div class="text"><h1>絵</h1></div>
+                </div>
+                <div class="list-item">
+                    <a href="photogallery.html"><img src="Me2のコピー.jpg" class="image"></a>
+                    <div class="text"><h1>写真</h1></div>
+                </div>    
+                <div class="list-item">
+                    <img src="NY.jpg" class="image">
+                    <div class="text"><h1>海外旅行</h1></div>
+                </div>
+                <div class="list-item">
+                    <a href="Food.html"><img src="food.jpg" class="image"></a>
+                    <div class="text"><h1>食</h1></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+
+div.menu {
+    position:absolute;
+    top:2em;
+    left:24em;
+    border:2px solid;
+    padding:5px;
+    font-size: 1em;
+    line-height:150%;
+    font-family: 'Arial Black';
+    color:#cccccc;
+    
+    /* background-color:rgb(198, 223, 255); */
+}
+.noline{
+    color: #cccccc
+}
+.noline:hover {
+  color: rgb(195, 195, 255);
+}
+/* container */
+.list-item img{
+  opacity: 0.6; 
+  cursor: pointer; 
+}
+
+.list-item img:hover {
+  opacity: 1;
+}
+.wrapper{
+    width:100%;
+}
+.wrapper .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:80px 0px;
+}
+/* content */
+.wrapper .content .heading{
+    margin:0px 0px 40px 0px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+.wrapper .content .sub{
+    margin:0px 0px 40px 0px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .wrapper .content .list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.wrapper .content .list-item {
+    margin:50px 0px;
+    padding:0px 50px;
+    text-align:center;
+}
+@media (min-width: 992px) {
+    .wrapper .content .list-item {
+        margin:0px;
+        width:calc(100% / 3);
+    }
+}
+.wrapper .content .list-item .image{
+    display:block;
+    width:100%;
+    max-width:300px;
+    margin:0px auto 20px auto;
+    border-radius:100%;
+}
+.wrapper .content .list-item .text{
+    line-height:1.8rem;
+    font-size:0.8rem;
+    color:#666666;
+}
+
+
+
+/* .wrapper{
+    width:100%;
+}
+.wrapper .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:80px 0px;
+}
+content
+wrapper .content {
+    padding:50px;
+    text-align:center;
+}
+.wrapper .content .heading{
+    margin:0px 0px 40px 0px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}  */
+</style>
+<div class="instagram" img align="middle">
+        <a href="https://www.instagram.com/photography_0506_/"><img src="insta.png" style="width:4%" class="sara"></a>
+    </div>
+
+
+
+
+
+</html>
