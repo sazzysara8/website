@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+        <br><br><title>Food</title>
+</head>
+<body>
+    <div style="text-align:center">
+        <br><br><p class="title"><font size="+10">Food Gallery</font></p>
+        <p class="subtitle"><font size="4">Eating is Motivation.</font></p>
+
+    </div>
+
+    <div class="menu", style="text-align: center">
+        <p>&nbsp;&nbsp;<a class="noline" href="profiling.html">Home</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="AboutMe.html">About Me</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="PersonalBlog.html">Personal Blog</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="photogallery.html">Photo Gallery</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="Comments.html">Comments</a>
+            &nbsp;&nbsp;</p>
+    </div>
+</body>
+<style>
+
+    div.menu {
+        position:absolute;
+        top:2em;
+        left:24em;
+        border:2px solid;
+        padding:5px;
+        font-size: 1em;
+        line-height:150%;
+        font-family: 'Arial Black';
+        color:#cccccc;
+        
+        /* background-color:rgb(198, 223, 255); */
+    }
+    .noline{
+        color: #cccccc
+    }
+    .noline:hover {
+      color: rgb(195, 195, 255);
+    }
+</style>
+
+<div class="grid">
+    <div class="item">
+        <img src="21feb10.jpg" alt="img" style="width:100%">
+        <p>2021 Feburary 10 <br>CCC Cheese Cheers Cafe<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="21may13-.jpg" alt="img" style="width:100%">
+        <p>2021 May 13 <br>A Weekend A Home<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="21may13.jpg" alt="img" style="width:100%">
+        <p>2021 May 13 <br>たか松<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="21may17.jpg" alt="img" style="width:100%">
+        <p>2021 May 17 <br>猪一<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="21jul7.jpg" alt="img" style="width:100%">
+        <p>2021 July 7 <br>2D Cafe<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="21jun13-.jpg" alt="img" style="width:100%">
+        <p>2021 June 13 <br>Ron Herman Cafe<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="21sep22.JPG" alt="img" style="width:100%">
+        <p>2021 September 22 <br>Gordon Ramsay Burger<br>Las Vegas</p>
+    </div>
+    <div class="item">
+        <img src="21nov13.jpg" alt="img" style="width:100%">
+        <p>2021 November 13 <br>わっぱ飯田舎屋<br>Niigata</p>
+    </div>
+    <div class="item">
+        <img src="22jan22.png" alt="img" style="width:100%">
+        <p>2022 January 22<br>Ron Herman Cafe<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22feb3-.jpg" alt="img" style="width:100%">
+        <p>2022 Feburary 3<br>Slurp<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22feb3.png" alt="img" style="width:100%">
+        <p>2022 Feburary 3<br>Libertē Pâtisserie Boulangerie<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22feb8.jpg" alt="img" style="width:100%">
+        <p>2022 Feburary 8<br>CAFE AALTO<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22feb11.jpg" alt="img" style="width:100%">
+        <p>2022 Feburary 11<br>バカ一代<br>Kagawa</p>
+    </div>
+    <div class="item">
+        <img src="22feb18.jpg" alt="img" style="width:100%">
+        <p>2022 Feburary 18<br>近江牛一筋　だいきち<br>Shiga</p>
+    </div>
+    <div class="item">
+        <img src="22mar3-.png" alt="img" style="width:100%">
+        <p>2022 March 3<br>Cafe ACE<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22mar3.png" alt="img" style="width:100%">
+        <p>2022 March 3<br>Izakaya Restaurant 霞-Kasumi-<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22mar10-.png" alt="img" style="width:100%">
+        <p>2022 March 10<br>Pannel Cafe<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22mar10.jpg" alt="img" style="width:100%">
+        <p>2022 March 10<br>Wakana<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22mar13-.jpg" alt="img" style="width:100%">
+        <p>2022 March 13<br>Lipton<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22apr4.png" alt="img" style="width:100%">
+        <p>2022 April 4<br>優光<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22apr9-.JPG" alt="img" style="width:100%">
+        <p>2022 April 9<br>肉屋 黒川<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22apr9.png" alt="img" style="width:100%">
+        <p>2022 April 9<br>Direct Coffee<br>Kyoto</p>
+    </div>
+    <div class="item">
+        <img src="22apr17.png" alt="img" style="width:100%">
+        <p>2022 April 17<br>洋食屋キチキチ<br>Kyoto</p>
+    </div>
+
+
+<!-- <div class="grid">
+    <div class="item">
+      <img src="21feb10.jpg" alt="img">
+      <p>2021. Feburary 10th - CCC Cheese Cheers Cafe in Kyoto</p>
+    </div>
+    <div class="item">
+      <img src="21jul1.jpg" alt="img">
+      <p>テキストテキスト</p>
+    </div>
+    <div class="item">
+      <img src="21jul7.jpg" alt="img">
+      <p>テキストテキスト</p>
+    </div>
+    <div class="item">
+      <img src="img/image.png" alt="img">
+      <p>テキストテキスト</p>
+    </div>
+    <div class="item">
+      <img src="img/image.png" alt="img">
+      <p>テキストテキスト</p>
+    </div>
+    <div class="item">
+      <img src="img/image.png" alt="img">
+      <p>テキストテキスト</p>
+    </div>
+    <div class="item">
+      <img src="img/image.png" alt="img">
+      <p>テキストテキスト</p>
+    </div>
+    <div class="item">
+      <img src="img/image.png" alt="img">
+      <p>テキストテキスト</p>
+    </div>
+    <div class="item">
+      <img src="img/image.png" alt="img">
+      <p>テキストテキスト</p>
+    </div>
+  </div> -->
+
+  <style>
+      .grid{
+  display: grid;
+  gap: 26px;
+  grid-template-columns:repeat(3, minmax(240px,1fr));
+  margin-top: 6%;
+  text-align: center;
+}
+  </style>
+</html>
