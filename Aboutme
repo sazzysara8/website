@@ -5,15 +5,6 @@
         <br><br><title>About Me</title>
 </head>
 
-<!-- <section class="wrapper">
-    <div class="container">
-        <div class="content">
-            <h2 class="heading">About Me</h2>
-            <p>初めまして、大学４回生。<br>このページでは私について</p>
-        </div>
-    </div>
-</section> -->
-
 <body>
 
     <div class="menu", style="text-align: center">
@@ -33,7 +24,7 @@
                     <div class="text"><h1>絵</h1></div>
                 </div>
                 <div class="list-item">
-                    <a href="photogallery.html"><img src="Me2のコピー.jpg" class="image"></a>
+                    <a href="photogallery.html"><img src="Me2のコピー.jpg" class="image"></a>
                     <div class="text"><h1>写真</h1></div>
                 </div>    
                 <div class="list-item">
@@ -62,7 +53,6 @@ div.menu {
     font-family: 'Arial Black';
     color:#cccccc;
     
-    /* background-color:rgb(198, 223, 255); */
 }
 .noline{
     color: #cccccc
@@ -70,7 +60,6 @@ div.menu {
 .noline:hover {
   color: rgb(195, 195, 255);
 }
-/* container */
 .list-item img{
   opacity: 0.6; 
   cursor: pointer; 
@@ -87,7 +76,6 @@ div.menu {
     margin:0px auto;
     padding:80px 0px;
 }
-/* content */
 .wrapper .content .heading{
     margin:0px 0px 40px 0px;
     font-size: 24px;
@@ -133,25 +121,7 @@ div.menu {
 
 
 
-/* .wrapper{
-    width:100%;
-}
-.wrapper .container{
-    max-width:1000px;
-    margin:0px auto;
-    padding:80px 0px;
-}
-content
-wrapper .content {
-    padding:50px;
-    text-align:center;
-}
-.wrapper .content .heading{
-    margin:0px 0px 40px 0px;
-    font-size: 24px;
-    font-weight: normal;
-    text-align: center;
-}  */
+
 </style>
 <div class="instagram" img align="middle">
         <a href="https://www.instagram.com/photography_0506_/"><img src="insta.png" style="width:4%" class="sara"></a>
