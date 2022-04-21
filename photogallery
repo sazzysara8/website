@@ -23,7 +23,6 @@
         font-family: 'Arial Black';
         color:#5e5e5e;
         
-        /* background-color:rgb(198, 223, 255); */
     }
     .noline{
         color: #5e5e5e
@@ -48,14 +47,12 @@ body {
   background: linear-gradient(to bottom, #c5f3ff,#7a738f)
 }
 
-/* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
   padding: 10px;
 }
 
-/* Style the images inside the grid */
 .column img {
   opacity: 0.6; 
   cursor: pointer; 
@@ -65,21 +62,17 @@ body {
   opacity: 1;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* The expanding image container */
 .container {
   position: relative;
   float: none;
-  /* display: none; */
 }
 
-/* Expanding image text */
 #imgtext {
   position: absolute;
   bottom: 15px;
@@ -88,7 +81,6 @@ body {
   font-size: 20px;
 }
 
-/* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
   top: 10px;
@@ -104,15 +96,12 @@ body {
     
 <div style="text-align:center">
     <br><br><br><br><p class="title"> <font size="+10">Photo Gallery</font></p>
-  <!-- <p>Click on the images below:</p> -->
 </div>
 <Style>
 p.title {
     font-family: 'Arial Black';
     color: #ffffff;
-    /* font-size:5em; */
-    /* line-height:90%; */
-    /* margin: 0px; */
+
 }
 </Style>
 
@@ -130,7 +119,6 @@ p.title {
   </style>
   
 
-<!-- The four columns -->
 <div class="row">
   <div class="column">
     <img src="GrandCanyon.JPG" alt="Grand Canyon" style="width:100%" onclick="myFunction(this);">
