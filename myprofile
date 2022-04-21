@@ -19,7 +19,6 @@
         <p>Comments</p>
     </div>
 
-<!-- 文字、写真のデザインを指定するスタイルシート -->
 <style> 
     body{
         background: linear-gradient(45deg, #011a2b,#58516b)
@@ -50,7 +49,6 @@
     font-family: 'Arial Black';
     color:#cccccc;
     
-        /* background-color:rgb(198, 223, 255); */
     }
     .noline{
         color: #cccccc
@@ -58,7 +56,6 @@
     .noline:hover {
     color: rgb(195, 195, 255);
     }
-    /* container */
     .list-item img{
     opacity: 0.6; 
     cursor: pointer; 
