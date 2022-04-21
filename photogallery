@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+        <br><br><title>Photo Gallery</title>
+</head>
+<body>
+    <div class="menu", style="text-align: center">
+        <p>&nbsp;&nbsp;<a class="noline" href="profiling.html">Home</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="AboutMe.html">About Me</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="PersonalBlog.html">Personal Blog</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="photogallery.html">Photo Gallery</a>&nbsp;&nbsp;&nbsp;<a class="noline" href="Comments.html">Comments</a>
+          &nbsp;&nbsp;</p>
+    </div>
+</body>
+<style>
+
+    div.menu {
+        position:absolute;
+        top:2em;
+        left:25em;
+        border:2px solid;
+        padding:5px;
+        font-size: 1em;
+        line-height:150%;
+        font-family: 'Arial Black';
+        color:#5e5e5e;
+        
+        /* background-color:rgb(198, 223, 255); */
+    }
+    .noline{
+        color: #5e5e5e
+    }
+    .noline:hover {
+      color: rgb(195, 195, 255);
+    }
+</style>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(to bottom, #c5f3ff,#7a738f)
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.6; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  float: none;
+  /* display: none; */
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+    
+<div style="text-align:center">
+    <br><br><br><br><p class="title"> <font size="+10">Photo Gallery</font></p>
+  <!-- <p>Click on the images below:</p> -->
+</div>
+<Style>
+p.title {
+    font-family: 'Arial Black';
+    color: #ffffff;
+    /* font-size:5em; */
+    /* line-height:90%; */
+    /* margin: 0px; */
+}
+</Style>
+
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img align="middle" id="expandedImg" style="width:70%" >
+  <div id="imgtext"></div>
+</div>
+
+<style>
+  .container {
+    text-align: center;
+  }
+  </style>
+  
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="GrandCanyon.JPG" alt="Grand Canyon" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="GrandCanyon2.JPG" alt="Grand Canyon" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="GrandCanyon3.JPG" alt="Grand Canyon" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="GrandCanyon4.jpg" alt="Grand Canyon amd Me" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NF.jpg" alt="Niagara Falls" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NF2.jpg" alt="Niagara Falls" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NF3.jpg" alt="Niagara Falls" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NF4.JPG" alt="Niagara Falls" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NFevening.jpg" alt="Evening View at Niagara Falls" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NFNight.jpg" alt="Night View at Niagara Falls" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="NFStars.jpg" alt="Stars in Niagara Falls" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="SantaMonica.jpg" alt="Santa Monica" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Nabana.JPG" alt="なばなの里" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Nabana2.JPG" alt="なばなの里" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Nabana3.JPG" alt="なばなの里" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Nabana4.JPG" alt="なばなの里" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+
+  
+
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+</body>
+</html>
